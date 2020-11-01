@@ -17,22 +17,22 @@ public class Main {
     }
 
     public static byte task1(byte a, short b) {
-         a = 2;
-         b = 1002;
+        a = 2;
+        b = 1002;
         System.out.println((byte) (a + b));
         return 0;
     }
 
     public static int task2(int a, long b) {
-         a = 212;
-         b = 22222222;
+        a = 212;
+        b = 22222222;
         System.out.println( a * b);
         return 0;
     }
 
     public static void getMaxNumber (int a, int b) {
-         a = 100;
-         b = 140;
+        a = 100;
+        b = 140;
         if (a>b){
             System.out.println("Максимум a = " + a);
         }
@@ -47,12 +47,12 @@ public class Main {
 
     static int isCharA(char a, char A) {
 
-         a = 'А';
-         A = 'А';
+        a = 'А';
+        A = 'А';
 
-            System.out.println(Objects.equals(a, A));
+        System.out.println(Objects.equals(a, A));
         return 0;
-        }
+    }
 
     static int isCharNumber() {
         char ch = '2';
@@ -62,8 +62,8 @@ public class Main {
 
     public static void task9() {
 
-    for (int i=0; i<30;i++)
-        System.out.println(Integer.toBinaryString(i));
+        for (int i=0; i<30;i++)
+            System.out.println(Integer.toBinaryString(i));
     }
 
     public static void task10 () {
@@ -86,5 +86,6 @@ public class Main {
 
 
 }
+
 
 
