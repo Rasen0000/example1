@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.sber</groupId>
-    <artifactId>task3</artifactId>
+    <artifactId>exemple</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
